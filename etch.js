@@ -1,7 +1,7 @@
-    for (let i = 0; i < 25; i++) { 
+    for (let i = 0; i < 250; i++) { 
         const content = document.createElement('div');
         content.classList.add('content');
-        content.textContent = 'This is the glorious text-content!';
+        content.className = "container-item";
         container.appendChild(content);
     }
 
